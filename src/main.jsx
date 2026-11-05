@@ -136,13 +136,13 @@ function App() {
       </section>
 
       <section className="cta-section section-pad" id="get-involved">
-        <div className="container cta-inner"><div className="section-kicker">05 — GET INVOLVED</div><h2>Bring your curiosity.<br/><span>Leave your mark.</span></h2><p>Want to learn more about AkTIVE or find a way to get involved?</p><a className="button button-dark" href="mailto:hello@aktive.org">Start a conversation <ArrowRight size={18}/></a><small>Contact details and community links will be updated when officially confirmed.</small></div>
+        <div className="container cta-inner"><div className="section-kicker">05 — GET INVOLVED</div><h2>Bring your curiosity.<br/><span>Leave your mark.</span></h2><p>Want to learn more about AkTIVE or find a way to get involved?</p><a className="button button-dark" href="#community">Start a conversation <ArrowRight size={18}/></a><small>Contact details and community links will be updated when officially confirmed.</small></div>
         <div className="cta-spark spark-one">✦</div><div className="cta-spark spark-two">✳</div>
       </section>
     </main>
 
     <footer className="footer">
-      <div className="container footer-main"><div><Mark compact/><p>Activate Knowledge to Influence<br/>Values & Excellence.</p></div><div className="footer-links"><span>EXPLORE</span>{links.map(([label, href]) => <a href={href} key={href}>{label}</a>)}</div><div className="footer-links"><span>CONNECT</span><a href="#get-involved">Get involved</a><a href="mailto:hello@aktive.org"><Mail size={15}/> Email us</a></div></div>
+      <div className="container footer-main"><div><Mark compact/><p>Activate Knowledge to Influence<br/>Values & Excellence.</p></div><div className="footer-links"><span>EXPLORE</span>{links.map(([label, href]) => <a href={href} key={href}>{label}</a>)}</div><div className="footer-links"><span>CONNECT</span><a href="#get-involved">Get involved</a><a href="#get-involved">Get in touch</a></div></div>
       <div className="container footer-bottom"><span>© {new Date().getFullYear()} THE AkTIVE TRIBE</span><span>LEARN · GROW · LEAD</span><a href="#home">Back to top ↑</a></div>
     </footer>
   </div>;
