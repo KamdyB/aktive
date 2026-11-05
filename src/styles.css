@@ -37,8 +37,12 @@ button { font: inherit; }
 .nav-actions { display: flex; align-items: center; gap: 10px; }
 .theme-toggle, .menu-toggle { width: 39px; height: 39px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; background: transparent; color: var(--navy); cursor: pointer; }
 .menu-toggle { display: none; }
-.hero { min-height: 620px; display: flex; align-items: center; padding: 105px 0 90px; }
+.hero { min-height: 620px; display: flex; align-items: flex-start; padding: 66px 0 90px; }
 .hero-inner { max-width: 1120px; }
+.hero-brand { margin-bottom: 42px; }
+.hero-brand .brand { gap: 13px; font-size: clamp(38px, 5vw, 54px); }
+.hero-brand .brand-mark { width: clamp(48px, 6vw, 62px); height: clamp(48px, 6vw, 62px); }
+.hero-brand .brand-mark { border-radius: 16px; display: grid; place-items: center; background: var(--lime); color: #14213d; font: 700 34px/1 var(--display); }
 .eyebrow { margin: 0 0 25px; color: #81934d; font-size: 11px; font-weight: 700; letter-spacing: .16em; }
 h1, h2, h3, p { margin-top: 0; }
 .hero h1 { max-width: 900px; margin: 0 0 25px; font: 600 clamp(54px, 7.5vw, 92px)/.99 var(--display); letter-spacing: -.045em; color: var(--navy); }
@@ -103,7 +107,10 @@ h2 { margin: 0 0 25px; font: 600 clamp(40px, 5.2vw, 66px)/1.06 var(--display); l
   .nav-links { display: none; position: absolute; top: 68px; left: 0; right: 0; margin: 0; padding: 22px 24px 26px; flex-direction: column; align-items: stretch; gap: 0; background: var(--cream); border-bottom: 1px solid var(--line); }
   .nav-links.nav-open { display: flex; }
   .nav-links a { padding: 13px 0; }
-  .hero { min-height: 550px; padding: 80px 0 65px; }
+  .hero { min-height: 550px; padding: 48px 0 65px; }
+  .hero-brand { margin-bottom: 36px; }
+  .hero-brand .brand { font-size: 42px; }
+  .hero-brand .brand-mark { width: 48px; height: 48px; font-size: 29px; }
   .hero h1 { font-size: clamp(52px, 10vw, 76px); }
   .hero-copy { font-size: 16px; }
   .section { padding: 82px 0; }
@@ -115,7 +122,8 @@ h2 { margin: 0 0 25px; font: 600 clamp(40px, 5.2vw, 66px)/1.06 var(--display); l
   .container { width: calc(100% - 38px); }
   .brand { font-size: 24px; }
   .brand-mark { width: 31px; height: 31px; }
-  .hero { min-height: 530px; }
+  .hero { min-height: 530px; padding-top: 42px; }
+  .hero-brand { margin-bottom: 32px; }
   .hero h1 { font-size: clamp(47px, 12vw, 64px); }
   .hero-motto { margin-top: 48px; font-size: 11px; }
   .section { padding: 72px 0; }
