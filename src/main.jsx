@@ -80,6 +80,7 @@ function App() {
       <main>
         <section className="hero" id="home">
           <div className="container hero-inner">
+            <div className="hero-brand"><Brand /></div>
             <p className="eyebrow">THE AkTIVE TRIBE</p>
             <h1>Learn with purpose.<br /><span>Grow with people.</span></h1>
             <p className="hero-copy">A community activating knowledge, building values, and growing into people who make a difference.</p>
