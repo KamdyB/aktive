@@ -1,4 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import '@fontsource/fredoka/500.css';
+import '@fontsource/fredoka/600.css';
+import '@fontsource/fredoka/700.css';
+import '@fontsource/dm-sans/400.css';
+import '@fontsource/dm-sans/500.css';
+import '@fontsource/dm-sans/600.css';
+import '@fontsource/dm-sans/700.css';
 import { createRoot } from 'react-dom/client';
 import { ArrowDown, ArrowRight, Menu, X, Instagram, Linkedin, Mail, Sparkles, BookOpen, Sprout, Users, Lightbulb, Handshake, Trophy } from 'lucide-react';
 import './styles.css';
