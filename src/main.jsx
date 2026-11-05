@@ -19,16 +19,7 @@ const navItems = [
 ];
 
 function BrandMark({ intro = false }) {
-  return (
-    <span className={intro ? 'brand-mark brand-mark-intro' : 'brand-mark'} aria-hidden="true">
-      <svg viewBox="0 0 52 52" role="presentation">
-        <path className="mark-a" d="M8 43 24 8c.8-1.8 3.3-1.8 4.1 0L44 43M15 29h26" />
-        <circle className="mark-head" cx="34" cy="10" r="3.1" />
-        <path className="mark-arm" d="m31 15-7 8 8 3" />
-        <path className="mark-star" d="M43 2.5 45 7l4.5 2-4.5 2-2 4.5-2-4.5-4.5-2 4.5-2z" />
-      </svg>
-    </span>
-  );
+  return <span className={intro ? 'brand-mark brand-mark-intro' : 'brand-mark'} aria-hidden="true">A</span>;
 }
 
 function Brand() {
@@ -99,7 +90,7 @@ function App() {
 
         <section className="section about-section" id="about">
           <div className="container narrow">
-            <p className="eyebrow">01 / WHO WE ARE</p>
+            <p className="eyebrow">WHO WE ARE</p>
             <h2>Becoming is something we do <span>together.</span></h2>
             <p className="section-copy">AkTIVE is a community built around the idea that knowledge should move beyond what we know and shape how we live, contribute, and lead.</p>
           </div>
@@ -108,7 +99,7 @@ function App() {
         <section className="section work-section" id="what-we-do">
           <div className="container work-layout">
             <div>
-              <p className="eyebrow">02 / WHAT WE DO</p>
+              <p className="eyebrow">WHAT WE DO</p>
               <h2>Ideas are a start.<br /><span>Action is the point.</span></h2>
             </div>
             <p className="section-copy">We create room for learning, connection, and meaningful participation. Through shared experiences and practical initiatives, members can turn curiosity into positive action.</p>
@@ -117,7 +108,7 @@ function App() {
 
         <section className="section values-section" id="values">
           <div className="container">
-            <p className="eyebrow">03 / OUR VALUES</p>
+            <p className="eyebrow">OUR VALUES</p>
             <h2>Learn. Grow. Lead.</h2>
             <div className="values-grid">
               <article><span>01</span><h3>Learn</h3><p>Stay curious. Build knowledge. Keep asking better questions.</p></article>
@@ -129,7 +120,7 @@ function App() {
 
         <section className="section contact-section" id="contact">
           <div className="container contact-inner">
-            <p className="eyebrow">04 / GET INVOLVED</p>
+            <p className="eyebrow">GET INVOLVED</p>
             <h2>There is room to <span>make a mark.</span></h2>
             <p className="section-copy">Bring your curiosity. Find your people. Be part of the Tribe.</p>
             <span className="button button-disabled" aria-disabled="true">Join the Tribe</span>
